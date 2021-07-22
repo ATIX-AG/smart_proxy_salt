@@ -10,7 +10,7 @@ module SmartProxySaltCore
         }
         ::SmartProxySaltCore::SaltRunner.new(
           input.merge(additional_options),
-          :suspended_action => suspended_action
+          suspended_action
         )
       end
     end
